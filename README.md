@@ -5,20 +5,23 @@
 
 
 Table of Contents
+--------------------------
 Installation
+
 Capture poalrization images
+
 Draw polarization images
 
 
 Installation
+--------------------------
 Install Visual Studion 2010 and Matlab R2016b.
 
 
 Capture poalrization images
-Open project HypotheticalPolarizationCamera.sln with Visual Studion 2010.
-/*Usage information:
-Using the code to call the functions "CameraParametersInit()" and "CameraSimulation()".
 --------------------------
+Open project HypotheticalPolarizationCamera.sln with Visual Studion 2010.
+Using the code to call the functions "CameraParametersInit()" and "CameraSimulation()".
 
 Step 1: Initialize the hypothetical polarization camera parameters.
 
@@ -47,21 +50,16 @@ Step 2: Hypothetical polarization camera simulation.
 	//Three Euler angles of camera (from body to solar vector coordinate system)
 	double  psa = 78.9;//yaw angle (unit is degree)
 	double  afa = -65.2;//pitch angle (unit is degree)
-    	double  beta = 278.3;//roll angle (unit is degree)
+    double  beta = 278.3;//roll angle (unit is degree)
 		
 	//Call the function "CameraSimulation()" to simulate polarization camera.
 	CameraSimulation(psa*pi/180.0,afa*pi/180.0,beta*pi/180.0,camera_state);
 
---------------------------
-========================================================================== 
-*/
 After running the project, the polarization image information is saved to "./output/HypotheticalImages.txt"
 
 
 Draw polarization images
-% Usage information:
-% --------------------------
-% 
-% Place the "ImageDarwing.m" file in the "./output" folder of the "HypotheticalPolarizationCamera" program. 
-% Then, run "ImageDarwing.m" with MATLAB R2016b after running the "HypotheticalPolarizationCamera" program. 
-% Above all, "DOP.png" and "AOP.png" can be obtained.
+--------------------------
+Place the "ImageDarwing.m" file in the "./output" folder of the "HypotheticalPolarizationCamera" program. 
+Then, run "ImageDarwing.m" with MATLAB R2016b after running the "HypotheticalPolarizationCamera" program. 
+Above all, "DOP.png" and "AOP.png" can be obtained.
