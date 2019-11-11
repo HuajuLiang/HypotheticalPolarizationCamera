@@ -20,7 +20,7 @@ Install Visual Studio 2010 and Matlab R2016b.
 
 Capture poalrization images
 --------------------------
-Open project HypotheticalPolarizationCamera.sln with Visual Studio 2010.
+Open project "HypotheticalPolarizationCamera" with Visual Studio 2010.
 Using the code to call the functions "CameraParametersInit()" and "CameraSimulation()".
 
 Step 1: Initialize the hypothetical polarization camera parameters.
