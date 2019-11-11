@@ -1,26 +1,26 @@
-# HypotheticalPolarizationCamera
- A Visual Studion (VS) 2010 C++ implementation of Hypothetical Polarization Camera is the code of our manuscript 
+# Hypothetical Polarization Camera
+ A Visual Studio (VS) 2010 C++ implementation of Hypothetical Polarization Camera is the code of our manuscript 
  "Limitation of Rayleigh Sky Model for Bio-inspired Polarized Skylight Navigation in Three-dimensional Attitude Determination" 
- by Huaju Liang and Hongyang Bai,Nanjing University of Science and Technology in Nanjing, China.
+ by Huaju Liang, Hongyang Bai, Ning Liu and Kai Shen.
 
 
 Table of Contents
 --------------------------
 Installation
 
-Capture poalrization images
+Capture polarization images
 
 Draw polarization images
 
 
 Installation
 --------------------------
-Install Visual Studion 2010 and Matlab R2016b.
+Install Visual Studio 2010 and Matlab R2016b.
 
 
 Capture poalrization images
 --------------------------
-Open project HypotheticalPolarizationCamera.sln with Visual Studion 2010.
+Open project HypotheticalPolarizationCamera.sln with Visual Studio 2010.
 Using the code to call the functions "CameraParametersInit()" and "CameraSimulation()".
 
 Step 1: Initialize the hypothetical polarization camera parameters.
