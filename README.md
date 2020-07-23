@@ -2,6 +2,7 @@
  A Visual Studio (VS) 2010 C++ implementation of Hypothetical Polarization Camera is the code of our manuscript 
  "Limitation of Rayleigh Sky Model for Bio-inspired Polarized Skylight Navigation in Three-dimensional Attitude Determination" 
  by Huaju Liang, Hongyang Bai, Ning Liu and Kai Shen.
+ https://iopscience.iop.org/article/10.1088/1748-3190/ab7ab7
 
 
 Table of Contents
